@@ -17,7 +17,8 @@ Creating a white blood cell dataset for segmentation
 <br>
 <b>Acutual Image Segmentation for 512x512 KRD-WBC images</b><br>
 
-As shown below, the inferred masks predicted by our segmentation model, which was trained on the new balanced dataset, 
+As shown below, the inferred masks predicted by our segmentation model, which was trained on 
+the augmented dataset, 
 appear similar to the ground truth masks in shape, but differ in color.
 <br>
 
@@ -289,7 +290,8 @@ python ../../../src/TensorFlowFlexUNetInferencer.py ./train_eval_infer_aug.confi
 <hr>
 <b>Enlarged images and masks of 512x512 pixels</b><br>
 RGB-map: (Neutrophil:green, Lymphocyte:blue, Monocyte:red, Eosinophil:cyan, Basophil:yellow).<br>
-As shown below, the inferred masks predicted by our segmentation model, which was trained on the new balanced dataset, 
+As shown below, the inferred masks predicted by our segmentation model, which was trained on the 
+augmented dataset, 
 appear similar to the ground truth masks in shape, but differ in color.<br>
 <table>
 <tr>
